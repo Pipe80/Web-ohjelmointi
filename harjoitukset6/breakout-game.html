@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<style>
+<!-- #myCanvas -->
+<!-- { -->
+<!-- background-color:orange; -->
+<!-- } -->
+</style>
+<head>
+	<meta charset="UTF-8">
+	<title>Breakout Game with Canvas animation using requestrAnimFrame</title>
+	<script src="Ball.js"></script>
+	<script src="Paddle.js"></script>
+	<script src="Block.js"></script>
+	<script src="Breakout.js"></script>
+</head>
+
+<body onload="init()">
+<h2>Breakout Game</h2>
+<div>
+	<canvas id="myCanvas" width="800" height="400" style="border:3px solid red;"></canvas> 
+</div>
+
+
+<div>
+	<button onclick="start_game()" id="startButton">Start a new Game</button>
+</div>
+</body>
+</html>
